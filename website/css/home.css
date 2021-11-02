@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body {
+    background-color:rgb(187, 4, 178);
+  }
+.pbeli{
+    font-family: 'Roboto Mono', monospace;
+}
+.navcss{
+    background-color: rgb(223, 64, 199);
+}
+
+.divc{
+    border-radius: 10px;
+}
