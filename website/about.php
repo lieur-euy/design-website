@@ -1,61 +1,11 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+  include ('config/koneksi.php');
+  include ('../website/layout/layout.php');
+?>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-.container-kategori{
-border-radius: 10px;
-}
-.pbeli{
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  width: auto;
-  margin: 1rem auto;
-  padding: 1rem;
-  border-radius: 10px;
-  font-weight: bold;
-  font-family: 'Roboto Mono', monospace;
-}
-.menu-produk{
-  margin: 1rem auto;
-  padding: 2rem;
-  border-radius: 10px;
-}
-
-    </style>
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a href="#" ><img src="./src/logo.png" style="width: 10%;"> </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./produk.html">Produk</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-              </li>
-    
-           
-            </ul>
-    
-        </div>
-      </nav>
-
-
+  <?php
+  include('../website/komponen/navbar_login.php');
+?>
       <div class="pbeli container shadow-lg">
         <h4>ABOUT</h4>
        </div>

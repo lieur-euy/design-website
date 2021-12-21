@@ -66,7 +66,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./proses.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                        <a href="./produk/produk.php" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
                             <i class="bi bi-bag fs-1"></i>
                         </a>
                     </li>
